@@ -75,8 +75,8 @@ def dostuff():
         print(sph_vsa(getNumber("Volume")))
     elif thing == "sph_sav":
         print(sph_sav(getNumber("Total Surface Area")))
-#    elif thing == "itripy_v"
-        
+    elif thing == "tripy_v":
+        print(tripy_v(getNumber("Width"),getNumber("Length"),getNumber("Height")))
 
 
 while True:
